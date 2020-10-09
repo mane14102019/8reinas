@@ -12,7 +12,6 @@ public class Reina {
     private int[] solucion;
     private boolean haySolucion;
     private ArrayList soluciones = new ArrayList();
-    private boolean sols;
  
     public Reina(int tamanio){
         if (tamanio < 4) throw new NullPointerException();
